@@ -21,7 +21,7 @@ const Services = () => {
                                     <div key={ServiceList.id} className='flex justify-center flex-col md:flex-row md:gap-4 p-4 hover:bg-gray-500 duration-300' onClick={() => openModal(ServiceList)}>
                                     <div className='text-4xl mx-auto'>{ServiceList.icon}</div>
                                     <div className=''>
-                                      <p className=' text-xl text-center md:text-start'>{ServiceList.service}</p>
+                                      <p className=' text-sm md:text-xl text-center md:text-start'>{ServiceList.service}</p>
                                       <h3 className='hidden md:block text-2xl font-bold text-start'>{ServiceList.name}</h3>
                                     </div>
                                 </div>
