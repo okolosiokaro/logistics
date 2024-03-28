@@ -22,7 +22,7 @@ const Hero = () => {
        <p className='md:text-xl text-sm text-gray-500'>At Logistics Company Limited, we're dedicated to delivering excellence in logistics solutions tailored to meet your unique needs. 
       <ToggleInformation defaultVisible={false} information="Whether you're a small business or a large corporation, our comprehensive services ensure seamless transportation and supply chain management from start to finish." /></p>
   
-      <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-black text-bold'>Explore Services</button>
+      <button className='bg-[#00df9a] w-[200px] rounded-md font-medium mt-12 mx-auto px-6 py-3 text-black text-bold'>Explore Services</button>
       </div>
       <Services />
     </div>
