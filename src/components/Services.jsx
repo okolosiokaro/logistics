@@ -1,6 +1,8 @@
 import React, {useState} from 'react'
 // import Modal from '../components/Modal'
 import {ServiceList} from '../data/data.js'
+// import { MdFlightTakeoff } from "react-icons/md";
+
 
 const Services = () => {
     const [modalContent, setModalContent] = useState(null);
@@ -16,11 +18,11 @@ const Services = () => {
           <div className=''>
                         <div className='max-w-[1240px] w-full mx-auto grid grid-cols-4 relative bottom-[-60px] bg-red-500'>
                 {ServiceList.map((ServiceList) => (
-                                    <div key={ServiceList.id} className='flex justify-between gap-4 p-4 hover:bg-gray-500 duration-300' onClick={() => openModal(ServiceList)}>
-                                    <img className='w-16 h-14 mx-auto bg-transparent' src={ServiceList.icon} alt="/"/>
-                                    <div className='hidden md:block'>
-                                      <p className=' text-xl text-start'>{ServiceList.service}</p>
-                                      <h3 className='text-2xl font-bold text-start'>{ServiceList.name}</h3>
+                                    <div key={ServiceList.id} className='flex justify-center flex-col md:flex-row md:gap-4 p-4 hover:bg-gray-500 duration-300' onClick={() => openModal(ServiceList)}>
+                                    <div className='text-4xl mx-auto'>{ServiceList.icon}</div>
+                                    <div className=''>
+                                      <p className=' text-xl text-center md:text-start'>{ServiceList.service}</p>
+                                      <h3 className='hidden md:block text-2xl font-bold text-start'>{ServiceList.name}</h3>
                                     </div>
                                 </div>
                 ))}
