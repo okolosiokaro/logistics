@@ -1,43 +1,50 @@
-import single from '../assets/single.png'
-import double from '../assets/double.png'
-import triple from '../assets/triple.png'
+import { FaChartLine } from "react-icons/fa";
+import { GiCargoShip } from "react-icons/gi";
+import { MdFlightTakeoff } from "react-icons/md";
+import { FaWarehouse } from "react-icons/fa6";
+
+
+
+
 
 const ServiceList = [
     {
         id: 1,
-        service: 'Service',
+        service: 'Freight',
         name: 'Freight Transportation',
         description: 'From trucking to air freight, we provide reliable transportation services to move your goods efficiently across any distance.',
         detail:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium quasi dolor molestiae illum placeat officiis rerum hic unde praesentium blanditiis vel culpa asperiores eveniet dolores, officia nesciunt aliquam? Cum, tenetur possimus? Possimus cumque iusto, vitae et hic officia maiores earum consectetur provident commodi similique, repellendus explicabo quia recusandae. Rerum adipisci, maiores architecto commodi repudiandae quidem explicabo voluptate non dicta iste hic amet, unde dolorem eos minima deserunt sunt autem tempore?",
         subText:'From trucking to air Freight',
-        icon:single
+        icon:<MdFlightTakeoff />
+
     },
     {
         id: 2,
-        service: 'Service',
+        service: 'Warehouse',
         name: 'Warehousing and Distribution',
         description: 'Our state-of-the-art warehouses are strategically located for optimal inventory management and distribution, ensuring your products reach their destinations on time, every time.',
         detail:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium quasi dolor molestiae illum placeat officiis rerum hic unde praesentium blanditiis vel culpa asperiores eveniet dolores, officia nesciunt aliquam? Cum, tenetur possimus? Possimus cumque iusto, vitae et hic officia maiores earum consectetur provident commodi similique, repellendus explicabo quia recusandae. Rerum adipisci, maiores architecto commodi repudiandae quidem explicabo voluptate non dicta iste hic amet, unde dolorem eos minima deserunt sunt autem tempore?",
         subText:'Best and advanced warehousing and distribution',
-        icon:double
+        icon:<FaWarehouse/>
+
     },
     {
         id: 3,
-        service: 'Service',
+        service: 'Clearance',
         name: 'Customs Clearance',
         description: 'Navigating the complexities of customs regulations can be daunting. Let our experts handle the paperwork and procedures to ensure smooth clearance for your imports and exports.',
         detail:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium quasi dolor molestiae illum placeat officiis rerum hic unde praesentium blanditiis vel culpa asperiores eveniet dolores, officia nesciunt aliquam? Cum, tenetur possimus? Possimus cumque iusto, vitae et hic officia maiores earum consectetur provident commodi similique, repellendus explicabo quia recusandae. Rerum adipisci, maiores architecto commodi repudiandae quidem explicabo voluptate non dicta iste hic amet, unde dolorem eos minima deserunt sunt autem tempore?",
         subText:'Fast tracking custom clearance process',
-        icon:triple
+        icon: <GiCargoShip />
     },
     {
         id: 4,
-        service: 'Service',
+        service: 'Supply',
         name: 'Supply Chain Optimization',
         description: "We analyze your supply chain to identify opportunities for efficiency improvements, cost savings, and risk mitigation, helping you stay competitive in today's dynamic market.",
         detail:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium quasi dolor molestiae illum placeat officiis rerum hic unde praesentium blanditiis vel culpa asperiores eveniet dolores, officia nesciunt aliquam? Cum, tenetur possimus? Possimus cumque iusto, vitae et hic officia maiores earum consectetur provident commodi similique, repellendus explicabo quia recusandae. Rerum adipisci, maiores architecto commodi repudiandae quidem explicabo voluptate non dicta iste hic amet, unde dolorem eos minima deserunt sunt autem tempore?",
         subText:'Improved supply chain efficiency',
-        icon: single
+        icon: <FaChartLine />
     }
 ];
 
