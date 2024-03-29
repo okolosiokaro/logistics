@@ -15,7 +15,7 @@ const Services = () => {
     }
 
   return (
-          <div className='bg-white'>
+          <div className='bg-gray-100'>
                         <div className='max-w-[1240px] w-4/5 mx-auto grid grid-cols-4 relative bottom-[40px] cursor-pointer md:bottom-[65px] text-black bg-[#00df9a]'>
                 {ServiceList.map((ServiceList) => (
                                     <div key={ServiceList.id} className='flex justify-center flex-col md:flex-row md:gap-4 p-4 hover:text-white hover:bg-blue-500 duration-300' onClick={() => openModal(ServiceList)}>
