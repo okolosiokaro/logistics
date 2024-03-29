@@ -1,16 +1,21 @@
 import React from 'react'
-import Services from '../components/Services'
+import laptop from '../assets/laptop.jpg'
 
 const OurService = () => {
   return (
        <div>
-         <div className='mt-4'>
-         <div className='bg-black text-center text-white p-10 md:p-12 rounded-lg'>
+        <div className='relative'>
+            <div className='absolute w-full h-[200px] bg-black/50 text-center text-white p-10 md:p-12'>
             <h3 className='text-2xl md:text-4xl font-bold'>Our Services</h3>
             <p className='p-1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, eius?</p>
-         </div>
-         <Services />
-      </div>
+            </div>
+            <img className='w-full h-[200px] object-cover' src={laptop} alt="/"/>
+        </div>
+        <div className='w-full bg-white py-16 px-4'>
+       <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
+        <p>Services</p>
+       </div>
+        </div>
       
     </div>
   )

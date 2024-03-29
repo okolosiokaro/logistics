@@ -33,7 +33,7 @@ const handleNav = () => {
           <li className="p-4 border-b border-gray-600"><Link to='/'>Home</Link></li>
           <li className="p-4 border-b border-gray-600"><Link to='/aboutus'>About</Link></li>
           <li className="p-4 border-b border-gray-600"><Link to='/services'>Services</Link></li>
-          <li className="p-4 border-b border-gray-600"><Link to='/contact'>Contact Us</Link></li>
+          <li className="p-4 border-b border-gray-600"><Link to='/contactus'>Contact Us</Link></li>
           <li className="p-4"><Link to='/signin'>Sign In</Link></li>
           <li className="p-4"><Link to='/careers'>Careers</Link></li>
         </ul>

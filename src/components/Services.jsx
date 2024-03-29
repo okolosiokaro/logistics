@@ -15,10 +15,10 @@ const Services = () => {
     }
 
   return (
-          <div className=''>
-                        <div className='max-w-[1240px] w-full mx-auto grid grid-cols-4 relative bottom-[-60px] bg-red-500'>
+          <div className='bg-white'>
+                        <div className='max-w-[1240px] w-4/5 mx-auto grid grid-cols-4 relative bottom-[40px] cursor-pointer md:bottom-[65px] text-black bg-[#00df9a]'>
                 {ServiceList.map((ServiceList) => (
-                                    <div key={ServiceList.id} className='flex justify-center flex-col md:flex-row md:gap-4 p-4 hover:bg-gray-500 duration-300' onClick={() => openModal(ServiceList)}>
+                                    <div key={ServiceList.id} className='flex justify-center flex-col md:flex-row md:gap-4 p-4 hover:text-white hover:bg-blue-500 duration-300' onClick={() => openModal(ServiceList)}>
                                     <div className='text-4xl mx-auto'>{ServiceList.icon}</div>
                                     <div className=''>
                                       <p className=' text-sm md:text-xl text-center md:text-start'>{ServiceList.service}</p>
