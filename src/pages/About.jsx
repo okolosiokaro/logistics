@@ -1,5 +1,6 @@
 import React from 'react'
 import laptop from '../assets/laptop.jpg'
+import Footer from '../components/Footer'
 
 const About = () => {
   return (
@@ -11,12 +12,10 @@ const About = () => {
            </div>
            <img className='w-full h-[200px] object-cover' src={laptop} alt="/"/>
         </div>
-        <div className='w-full bg-white py-16 px-4'>
-          <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
-            <p>About</p>
-          </div>
+        <div className='w-full bg-gray-100 pt-16 px-4'>
+      
         </div>
-  
+      <Footer />
     </div>
   )
 }

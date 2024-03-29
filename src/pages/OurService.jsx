@@ -1,5 +1,7 @@
 import React from 'react'
 import laptop from '../assets/laptop.jpg'
+import Services from '../components/Services'
+import Footer from '../components/Footer'
 
 const OurService = () => {
   return (
@@ -11,12 +13,10 @@ const OurService = () => {
             </div>
             <img className='w-full h-[200px] object-cover' src={laptop} alt="/"/>
         </div>
-        <div className='w-full bg-white py-16 px-4'>
-       <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
-        <p>Services</p>
-       </div>
+        <div className='w-full bg-gray-100 pt-16 px-4'>
+       <Services />
         </div>
-      
+      <Footer />
     </div>
   )
 }
