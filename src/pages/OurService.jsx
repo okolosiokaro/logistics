@@ -16,7 +16,7 @@ const OurService = () => {
         <div className='w-full bg-gray-100 pt-16 px-4'>
        <Services />
         </div>
-      <Footer />
+      <Footer className=''/>
     </div>
   )
 }
