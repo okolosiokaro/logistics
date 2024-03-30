@@ -12,11 +12,11 @@ const Services = () => {
       <div className='grid md:grid-cols-2 gap-6 mt-8'>
           {ServiceList.map((ServiceList) => (
             <div key={ ServiceList.id} className='flex justify-between gap-4'>
-              <div className='text-2xl md:text-4xl'>
+              <div className='text-2xl md:text-4xl text-[#00df9a]'>
                 {ServiceList.icon}
               </div>
               <div>
-                <h5 className=' text-lg md:text-xl font-bold'>{ServiceList.name}</h5>
+                <h5 className=' text-lg md:text-xl text-[#00df9a] font-bold'>{ServiceList.name}</h5>
                 <p className='md:text-xl text-sm mt-2'>{ServiceList.description}</p>
               </div>
             </div>
