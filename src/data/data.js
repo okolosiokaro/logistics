@@ -51,28 +51,28 @@ const ServiceLists = [
 const FleetLists = [
     {
         id: 1,
-        image: '',
+        image: 'https://media.istockphoto.com/id/1140988145/photo/commercial-delivery-vans-in-row.webp?b=1&s=170667a&w=0&k=20&c=gjfULLDg6suFr2tL4McnBtm66zZ9VL9Pfkf2lGUxQiA=',
         model: 'Commercial Van',
         capacity: '3t',
         range: '100km'    
     },
     {
         id: 2,
-        image: '',
+        image: 'https://media.istockphoto.com/id/1085031574/photo/several-cars-vans-trucks-parked-in-parking-lot-for-rent-or-delivery.webp?b=1&s=170667a&w=0&k=20&c=MXFZIsZng_F75y1iMFlkeSggoeIgmCLUGHlZ__VoWJc=',
         model: 'Commercial Van',
         capacity: '3t',
         range: '100km'
     },
     {
         id: 3,
-        image: '',
+        image: 'https://media.istockphoto.com/id/1472189897/photo/trucks-parked-in-a-distribution-warehouse-ready-to-deliver-some-cargo.webp?b=1&s=170667a&w=0&k=20&c=L8QRDZ4ALebN7mFqwaMuO00B2u2RKqUy2e9ZSSuBzSM=',
         model: 'Commercial Van',
         capacity: '3t',
         range: '100km'
     },
     {
        id: 4,
-        image: '',
+        image: 'https://media.istockphoto.com/id/1663889855/photo/white-trucks-with-containers-on-highway.webp?b=1&s=170667a&w=0&k=20&c=pe0VbwzCTGgMR5ga2XiOHnpyvRl7eRlEXF986CbmpoA=',
         model: 'Commercial Van',
         capacity: '3t',
         range: '100km'

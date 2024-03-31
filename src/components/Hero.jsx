@@ -2,7 +2,6 @@
 import { ReactTyped } from "react-typed";
 import ToggleInformation from './ToggleInformation';
 import ServiceCard from './ServiceCard';
-import hero1 from '../assets/hero1.jpg';
 // import laptop from '../assets/laptop.jpg';
 
 const Hero = () => {
@@ -26,7 +25,7 @@ const Hero = () => {
   
       <button className='bg-[#00df9a] hover:bg-blue-500 w-[200px] rounded-md font-medium mt-12 mx-auto px-6 py-3 text-black hover:text-white text-bold'>Explore Services</button>
       </div>
-      <img className='w-full h-screen  bg-center bg-cover' src={hero1} alt="/"/>
+      <img className='w-full h-screen bg-cover bg-center' src='https://media.istockphoto.com/id/1409387561/photo/transport-and-logistic-concept-manager-and-engineer-checking-and-control-logistic-network.webp?b=1&s=170667a&w=0&k=20&c=4o4yrhIETTmlUv2yHqpj8dpTamBfBi1pQ8haasTkv0Y=' alt="/"/>
       <ServiceCard />
     </div>
   )
