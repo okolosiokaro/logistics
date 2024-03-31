@@ -10,10 +10,10 @@ const Faq = () => {
   return (
     <div className='w-full bg-white py-16 px-4'>
     <div className='max-w-[1240px] mx-auto'>
-            <h3 className='text-center md:text-4xl sm:text-3xl text-xl text-gray-500 font-bold'>FAQ</h3>
-            <p className='text-center'>Frequently asked questions and answers</p>
-            <div className='my-12'>
-              {Faqs.map((Faq, index) => (
+            <h3 className='text-2xl font-bold'>FAQ</h3>
+            <p className='md:text-xl text-sm mt-4'>Frequently asked questions and answers</p>
+            <div className='my-8'>
+              {Faqs.map((Faq,index) => (
                 <div key={index} className='my-2'>
                   <div className='flex justify-between items-center gap-2 p-2 border border-black hover:border-gray-50 hover:shadow-lg cursor-pointer rounded-lg ' onClick={() => toggleAnswer(index)}>
                     <h3 className='md:text-xl font-bold'>{Faq.question}</h3>

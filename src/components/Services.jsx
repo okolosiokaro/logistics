@@ -1,17 +1,17 @@
 import React from 'react'
-import { ServiceList } from '../data/data'
+import { ServiceLists } from '../data/data'
 import service from '../assets/service.png'
 
 const Services = () => {
   return (
   <div className='bg-gray-100 pb-16 px-4'>
-    <div className='relative w-full max-w-[1240px] mx-auto flex justify-between lg:flex-row flex-col-reverse'>
+    <div className='relative w-full max-w-[1240px] mx-auto flex justify-between flex-col-reverse md:flex-col-reverse lg:flex-row '>
       <div className='lg:w-2/3'>
       <h2 className='text-2xl font-bold'>What makes us special</h2>
        <p className='md:text-xl text-sm mt-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae voluptates rem doloribus distinctio accusamus consectetur ipsa incidunt quidem eveniet velit.</p>
       <div className='grid md:grid-cols-2 gap-6 mt-8'>
-          {ServiceList.map((ServiceList) => (
-            <div key={ ServiceList.id} className='flex justify-between gap-4'>
+          {ServiceLists.map(ServiceList=> (
+            <div key={ServiceList.id} className='w-full flex justify-between gap-4'>
               <div className='text-2xl md:text-4xl text-[#00df9a]'>
                 {ServiceList.icon}
               </div>
@@ -23,9 +23,7 @@ const Services = () => {
           ))}
       </div>
       </div>
-      <div className='md:w-1/2 lg:w-1/2 mx-auto'>
-      <img src={service} alt='pic here' className=''/>
-      </div>
+      <img src={service} alt='pic here' className='lg:absolute lg:-right-12 lg:-bottom-36 md:w-3/4 lg:w-[500px]'/>
     </div>
   </div>
   )

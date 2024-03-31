@@ -7,7 +7,7 @@ import { FaWarehouse } from "react-icons/fa6";
 
 
 
-const ServiceList = [
+const ServiceLists = [
     {
         id: 1,
         service: 'Freight',
@@ -48,6 +48,38 @@ const ServiceList = [
     }
 ];
 
+const FleetLists = [
+    {
+        id: 1,
+        image: '',
+        model: 'Commercial Van',
+        capacity: '3t',
+        range: '100km'    
+    },
+    {
+        id: 2,
+        image: '',
+        model: 'Commercial Van',
+        capacity: '3t',
+        range: '100km'
+    },
+    {
+        id: 3,
+        image: '',
+        model: 'Commercial Van',
+        capacity: '3t',
+        range: '100km'
+    },
+    {
+       id: 4,
+        image: '',
+        model: 'Commercial Van',
+        capacity: '3t',
+        range: '100km'
+    }
+   
+
+];
 const Faqs = [
     {
       id: 1,
@@ -76,4 +108,4 @@ const Faqs = [
     }
 ];
 
-export {Faqs, ServiceList};
+export {Faqs, ServiceLists, FleetLists};
