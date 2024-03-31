@@ -28,7 +28,7 @@ const ServiceCard = () => {
                 ))}
 
   {modalContent && (
-    <div className='fixed inset-0 flex items-center justify-center bg-gray-900 bg-opacity-50' onClick={closeModal}>
+    <div className='fixed inset-0 flex items-center justify-center bg-gray-900 bg-opacity-50 z-50' onClick={closeModal}>
     <div className='bg-white text-black w-3/4 md:w-1/2 rounded-lg shadow-lg p-6'>
       <div className='flex justify-between items-center'>
           <h2 className='text-lg font-semibold'>{modalContent.name}</h2>

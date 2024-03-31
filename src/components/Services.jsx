@@ -23,7 +23,7 @@ const Services = () => {
           ))}
       </div>
       </div>
-      <img src={service} alt='pic here' className='lg:absolute lg:-right-12 lg:-bottom-36 md:w-3/4 lg:w-[500px]'/>
+      <img src={service} alt='pic here' className='lg:absolute lg:-right-12 lg:-bottom-36 md:w-3/4 lg:w-[500px] mx-auto'/>
     </div>
   </div>
   )
