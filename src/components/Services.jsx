@@ -4,7 +4,7 @@ import service from '../assets/service.png'
 
 const Services = () => {
   return (
-  <div className='bg-gray-50 pb-16 px-4'>
+  <div className='bg-gray-50 py-32 px-4'>
     <div className='relative w-full max-w-[1240px] mx-auto flex justify-between flex-col-reverse md:flex-col-reverse lg:flex-row '>
       <div className='lg:w-2/3'>
       <h2 className='text-2xl font-bold'>What makes us special</h2>

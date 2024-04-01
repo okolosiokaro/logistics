@@ -6,8 +6,8 @@ import ServiceCard from './ServiceCard';
 
 const Hero = () => {
   return (
-    <div className="text-white">
-      <div className="absolute left-0 w-full h-screen mx-auto text-center flex flex-col justify-center bg-black/50">
+    <div className="text-white relative">
+      <div className="absolute left-0 top-0 w-full h-[80vh] lg:h-screen mx-auto text-center flex flex-col justify-center bg-black/50">
        <p className="text-[#00df9a] font-bold p-2">Welcome to</p>
        <h1 className="md:text-5xl sm:text-3xl text-2xl font-bold md:py-4">LOGISTICS COMPANY LIMITED</h1>
        <div className='flex items-center justify-center'>
@@ -24,10 +24,12 @@ const Hero = () => {
       <ToggleInformation defaultVisible={false} information="Whether you're a small business or a large corporation, our comprehensive services ensure seamless transportation and supply chain management from start to finish." /></p>
   
       <button className='bg-[#00df9a] hover:bg-blue-500 w-[200px] rounded-md font-medium mt-12 mx-auto px-6 py-3 text-black hover:text-white text-bold'>Explore Services</button>
-      </div>
-      <img className='w-full h-screen bg-cover bg-center' src='https://media.istockphoto.com/id/1409387561/photo/transport-and-logistic-concept-manager-and-engineer-checking-and-control-logistic-network.webp?b=1&s=170667a&w=0&k=20&c=4o4yrhIETTmlUv2yHqpj8dpTamBfBi1pQ8haasTkv0Y=' alt="/"/>
       <ServiceCard />
+      </div>
+      <img className='w-full h-[80vh] lg:h-screen bg-cover bg-center' src='https://media.istockphoto.com/id/1409387561/photo/transport-and-logistic-concept-manager-and-engineer-checking-and-control-logistic-network.webp?b=1&s=170667a&w=0&k=20&c=4o4yrhIETTmlUv2yHqpj8dpTamBfBi1pQ8haasTkv0Y=' alt="/"/>
+      
     </div>
+    
   )
 }
 
