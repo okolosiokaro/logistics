@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { LuQuote } from "react-icons/lu";
 
 const Testimonials = () => {
   return (
@@ -23,11 +24,13 @@ const Testimonials = () => {
      <div>
      <h3 className='text-2xl font-bold'>Testimonials</h3>
      <div className='flex my-8 gap-4'>
-      <img src='/' alt='quotation mark'/>
+      <div className='text-3xl text-[#00df9a]'>
+      <LuQuote />
+      </div>
       <div className='text-start'>
         <p className='text-gray-400 italic'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam, nam.lorem20 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam, nam.lorem20 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam, nam.lorem20</p>
-        <div className='flex mt-2'>
-          <img src='/' alt='customer'/> 
+        <div className='flex mt-2 gap-2'>
+          <img src='https://images.unsplash.com/photo-1603415526960-f7e0328c63b1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHVzZXIlMjBwcm9maWxlfGVufDB8fDB8fHww' alt='customer' className='rounded-full w-[40px] h-[40px]'/> 
           <div className=''>
             <p className='text-sm font-bold'>name</p>
             <span className='italic text-sm text-gray-400'>more details</span>
