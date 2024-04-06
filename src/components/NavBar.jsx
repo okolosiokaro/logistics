@@ -21,10 +21,15 @@ const handleNav = () => {
       <div onClick={handleNav} className="block md:hidden">
       {nav ? <AiOutlineClose size={20} /> :  <AiOutlineMenu size={20}/> }
       </div>
-      <div className={nav ? "fixed left-0 top-0 w-[60%] h-full border-r-gray-900 bg-[#000300] ease-in-out duration-500" : "fixed left-[-100%] " }>
+
+      <div className={nav ? 'fixed top-0 left-0 w-full h-full bg-black/50 z-20' : ''}></div>
+      <div className={nav ? "fixed left-0 top-0 w-[60%] h-full bg-[#000300] ease-in-out duration-500 rounded-r-xl z-50" : "fixed left-[-100%] ease-in-out duration-300" }>
+      <div onClick={handleNav} className="block md:hidden">
       <h1 className="text-3xl font-bold text-[#00df9a] m-4">React</h1>
+      {nav ? <AiOutlineClose size={20} /> :  <AiOutlineMenu size={20}/> }
+      </div>
         <ul className="p-4 uppercase cursor-pointer">
-        <li className="p-4 border-b border-gray-600">Home</li>
+        <li className="p-4 border-b border-gray-600">Hme</li>
         <li className="p-4 border-b border-gray-600">Services</li>
         <li className="p-4 border-b border-gray-600">About</li>
         <li className="p-4 border-b border-gray-600">Contact</li>
